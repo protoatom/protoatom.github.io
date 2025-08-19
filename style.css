@@ -142,8 +142,12 @@ header {
     background-size: 200% 200%;
     will-change: background-position;
     backface-visibility: hidden;
+    transition: 0.2s;
 }
 
+.button-card:hover {
+    transform: scale(1.1);
+}
 @keyframes smoothGradient {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
